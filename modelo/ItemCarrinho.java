@@ -27,6 +27,7 @@ public class ItemCarrinho {
 
     @Override
     public String toString() {
-        return produto.getNome() + " x" + quantidade + " = R$" + String.format("%.2f", calcularSubtotal());
+        return produto.getNome() + " x" + quantidade + " = R$" +
+                String.format("%.2f", calcularSubtotal());
     }
 }
