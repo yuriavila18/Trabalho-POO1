@@ -1,9 +1,7 @@
 package Julho.Trabalho2507.excecoes;
 
-public class ClienteNaoEncontradoException extends Exception  {
-    public ClienteNaoEncontradoException(String mensagem) {
+public class EstoqueInsuficienteException extends Exception  {
+    public EstoqueInsuficienteException(String mensagem) {
         super(mensagem);
     }
 }
-
-
