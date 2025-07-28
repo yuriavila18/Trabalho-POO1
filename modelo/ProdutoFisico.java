@@ -4,7 +4,8 @@ public class ProdutoFisico extends Produto {
     private double peso;
     private int estoque;
 
-    public ProdutoFisico(String codigo, String nome, double preco, String descricao, double peso, int estoque) {
+    public ProdutoFisico(String codigo, String nome, double preco,
+                         String descricao, double peso, int estoque) {
         super(codigo, nome, preco, descricao);
         this.peso = peso;
         this.estoque = estoque;
@@ -34,6 +35,7 @@ public class ProdutoFisico extends Produto {
 
     @Override
     public String toString() {
-        return super.toString() + " [peso=" + peso + "kg, estoque=" + estoque + "]";
+        return super.toString() + " [peso=" + peso +
+                "kg, estoque=" + estoque + "]";
     }
 }
